@@ -33,12 +33,10 @@ class AK8975:
         self.asay = 0
         self.asaz = 0
 
-        # Hard iron offset
         self.calibration_offset_x_axis = 0
         self.calibration_offset_y_axis = 0
         self.calibration_offset_z_axis = 0
 
-        # Soft iron scale
         self.calibration_scale_x_axis = 1.0
         self.calibration_scale_y_axis = 1.0
         self.calibration_scale_z_axis = 1.0
